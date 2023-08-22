@@ -22,10 +22,10 @@ int main() {
         printf("Enter employee %d information:\n", i + 1);
         
         printf("Name: ");
-        scanf(" %[^\n]", employees[i].name);
+        scanf(" %s", employees[i].name);
         
         printf("Designation: ");
-        scanf(" %[^\n]", employees[i].designation);
+        scanf(" %s", employees[i].designation);
         
         printf("Basic Salary: ");
         scanf("%f", &employees[i].basicSalary);
