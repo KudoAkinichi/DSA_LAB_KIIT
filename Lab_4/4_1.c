@@ -110,8 +110,7 @@ int main() {
     struct Node* head = NULL;
     int choice, data, position, count, key;
 
-    printf("Enter number of nodes: ");
-    int numNodes;
+    printf("Enter number of nodes: ");    int numNodes;
     scanf("%d", &numNodes);
 
     printf("Enter the elements: ");

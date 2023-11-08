@@ -83,9 +83,8 @@ int main() {
     printf("Polynomial-1:\n");
     int max_power1;
     printf("Enter the Maximum power of x: ");
-    scanf("%d", &max_power1); //User se max power entef karwayi
-
-    for (int i = max_power1; i >= 0; i--) { ///Loop chalaya
+    scanf("%d", &max_power1); 
+    for (int i = max_power1; i >= 0; i--) { 
         int coef;
         printf("Enter the coefficient of degree %d: ", i);
         scanf("%d", &coef);
