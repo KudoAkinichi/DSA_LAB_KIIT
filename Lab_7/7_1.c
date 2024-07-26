@@ -128,5 +128,5 @@ int main() {
         }
     } while (option != 6);
 
-    return 0;
+return 0;
 }
